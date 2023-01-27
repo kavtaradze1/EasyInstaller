@@ -2,40 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeoShop.Ge | Online Shop</title>
     <link rel="stylesheet" href="./css/style.css">
+    <title>GeoShop.ge | Online Shop</title>
 </head>
 <body>
     <header>
-        <div class="logo">Test Page</div>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
         </div>
-        <nav class="nav-bar"
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
             <ul>
                 <li>
                     <a href="" class="active">Home</a>
                 </li>
                 <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
                     <a href="">Downloads</a>
                 </li>
                 <li>
-                    <a href="">About US</a>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
                 </li>
             </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
     </header>
-
-    <script>
-        hamburger = document.querySelector(".hamburger");
-        hamburger.onclick = function() {
-            navBar = document.querySelector(".nav-bar");
-            navBar.classList.toggle("active");
-        }
-    </script>
-
 </body>
 </html>
