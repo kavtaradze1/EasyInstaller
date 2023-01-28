@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!--<script src="./js/redirecthandler.js"></script>-->
     <title>EasyInstaller | Install Programs With 1 Click</title>
 </head>
 <body>
@@ -18,13 +19,13 @@
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <a href="https://kavtaradze1.github.io/GeoShop.ge/index.html" class="active">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
                 <li>
-                    <a href="https://kavtaradze1.github.io/GeoShop.ge/downloads.html">Downloads</a>
+                    <a href="./guides.html" class="dbtn">Guides</a>
                 </li>
                 <li>
-                    <a href="https://kavtaradze1.github.io/GeoShop.ge/guides.html">Guide</a>
+                    <a href="./guides.html" class="gbtn">Github</a>
                 </li>
             </ul>
         </nav>
@@ -39,5 +40,13 @@
 </script>
 <h1 style="text-align:center;margin: 150px;">Application Installation <strong>Redefined.</strong></h1>
 <button class="button-64" role="button"><span class="text">Download</span></button>
+
+<script>
+    dowbtn = document.querySelector(".button-64");
+    dowbtn.onclick = function() {
+        window.location.assign("./downloads.html");
+    }
+</script>
+
 </body>
 </html>
