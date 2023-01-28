@@ -1,6 +1,6 @@
 # EasyInstaller
 
-EasyInstaller Is <b>Small And Open Source</b> Application That Downloads All Popular Softwares/System Libraries And Important Stuff With Few Clicks!
+EasyInstaller Is <strong>Small And Open Source</strong> Application That Downloads All Popular Softwares/System Libraries And Important Stuff With Few Clicks!
 
 Yes, You Heard It!
 
